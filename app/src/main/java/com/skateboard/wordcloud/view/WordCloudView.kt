@@ -46,6 +46,7 @@ class WordCloudView(context: Context, attributeSet: AttributeSet?) : View(contex
                     it.size / perNumInCircle + if (it.size % perNumInCircle == 0) 0 else 1
                 upDegreeGap = 180.0 / (circleRowNum + 1)
                 bottomDegreeGap = 360.0 / perNumInCircle
+                requestLayout()
             }
         }
 
