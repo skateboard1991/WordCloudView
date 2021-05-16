@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WordCloudView">
+        <attr name="radius" format="dimension" />
+        <attr name="max_text_size" format="dimension" />
+        <attr name="min_factor" format="float" />
+        <attr name="per_num_in_circle" format="integer" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+</resources>
